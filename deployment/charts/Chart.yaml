@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Deploying RC User Test with Helm
+name: rc-web-sample
+version: 0.1.0

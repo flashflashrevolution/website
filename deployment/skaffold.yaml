@@ -1,0 +1,12 @@
+apiVersion: skaffold/v2beta4
+kind: Config
+build:
+  artifacts:
+  - image: rc-web-sample
+deploy:
+  helm:
+    releases:
+    - name: rc-web-sample
+      chartPath: charts
+      artifactOverrides:
+        image: rc-web-sample
