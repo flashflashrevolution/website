@@ -1,6 +1,3 @@
-test
-src/**/*.js
-src/**/*.js.map
 dist
 
 # Created by https://www.gitignore.io/api/node,visualstudiocode
